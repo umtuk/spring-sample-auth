@@ -6,3 +6,4 @@ spring:
     import:
       - config/data/mongo.yml
       - config/data/redis.yml
+      - config/docs/swagger.yml
