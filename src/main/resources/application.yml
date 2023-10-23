@@ -1,1 +1,11 @@
+server:
+  port: ${SERVER_PORT}
 
+spring:
+  config:
+    import:
+      - config/data/mongo.yml
+      - config/data/redis.yml
+      - config/docs/swagger.yml
+      - config/security/auth-server.yml
+      - config/security/oauth2-client.yml
