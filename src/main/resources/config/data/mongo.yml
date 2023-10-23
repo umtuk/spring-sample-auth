@@ -1,0 +1,9 @@
+spring:
+  data:
+    mongodb:
+      host: ${SPRING-DATA-MONGODB-HOST}
+      username: ${SPRING-DATA-MONGODB-USERNAME}
+      password: ${SPRING-DATA-MONGODB-PASSWORD}
+      port: ${SPRING-DATA-MONGODB-PORT}
+      database: ${SPRING-DATA-MONGODB-DATABASE}
+      authentication-database: ${SPRING-DATA-MONGODB-AUTHENTICATION-DATABASE}
