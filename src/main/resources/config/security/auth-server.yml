@@ -1,0 +1,14 @@
+spring:
+  security:
+    oauth2:
+      authorizationserver:
+        client:
+          default:
+            registration:
+              client-id: ${DEFAULT_AUTH_SERVER_CLIENT_ID}
+              client-secret: ${DEFAULT_AUTH_SERVER_CLIENT_SECRET}
+              client-authentication-methods: ${DEFAULT_AUTH_SERVER_METHODS}
+              authorization-grant-types: ${DEFAULT_AUTH_SERVER_GRANT_TYPES}
+              redirect-uris: ${DEFAULT_AUTH_SERVER_REDIRECT_URIS}
+              post-logout-redirect-uris: ${DEFAULT_AUTH_SERVER_POST_LOGOUT_REDIRECT_URIS}
+              scopes: ${DEFAULT_AUTH_SERVER_SCOPES}
